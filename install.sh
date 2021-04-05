@@ -62,6 +62,10 @@ execute() {
 }
 get_binaries() {
   case "$PLATFORM" in
+    darwin/386) BINARIES="kbrew" ;;
+    darwin/amd64) BINARIES="kbrew" ;;
+    darwin/arm64) BINARIES="kbrew" ;;
+    darwin/armv6) BINARIES="kbrew" ;;
     linux/386) BINARIES="kbrew" ;;
     linux/amd64) BINARIES="kbrew" ;;
     linux/arm64) BINARIES="kbrew" ;;
