@@ -2,6 +2,9 @@
 
 kbrew-release manages public distributions of kbrew
 
+# Deprecated
+Newer releases will be published on [kbrew-dev/kbrew](https://github.com/kbrew-dev/kbrew) repo 
+
 # kbrew
 
 kbrew is to Kubernetes what Homebrew is to MacOS - a simple and easy to use package manager which hides the underlying complexity.
